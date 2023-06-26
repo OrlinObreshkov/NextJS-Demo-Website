@@ -1,0 +1,12 @@
+.socials ul {
+  display: flex;
+  align-items: center;
+}
+
+.socials ul li {
+  margin-left: 25px;
+}
+
+.socials ul li:first-child {
+  margin-left: 0;
+}

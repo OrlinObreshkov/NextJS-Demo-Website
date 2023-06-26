@@ -1,0 +1,65 @@
+.crypto-element-btc {
+  background-color: #efa8b0;
+}
+
+.crypto-element-eth {
+  background-color: #c79cc8;
+}
+
+.crypto-element-xrp {
+  background-color: #a89cc8;
+}
+
+.crypto-element-ltc {
+  background-color: #9bb2e1;
+}
+
+.crypto-element-bch {
+  background-color: #8cc9f0;
+}
+
+.crypto-element {
+  padding: 25px;
+  color: #fff;
+}
+
+.crypto-element .crypto-element__title {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.crypto-element .crypto-element__symbol {
+  display: block;
+  font-size: 12px;
+}
+
+.crypto-icon-bitcoin {
+  background-image: url(../../public/static/bitcoin.svg);
+}
+
+.crypto-icon-ethereum {
+  background-image: url(../../public/static/ethereum.svg);
+}
+
+.crypto-icon-ripple {
+  background-image: url(../../public/static/ripple.svg);
+}
+
+.crypto-icon-litecoin {
+  background-image: url(../../public/static/litecoin.svg);
+}
+
+.crypto-icon-bitcoin-cash {
+  background-image: url(../../public/static/bitcoin-cash.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-element {
+    padding: 15px;
+  }
+
+  .crypto-element .crypto-element__symbol {
+    margin-bottom: 10px;
+  }
+}

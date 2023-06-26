@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 65px 25px 15px 25px;
+}
+
+.header .header__logo {
+  margin-bottom: 25px;
+}
+
+.header .header__title {
+  color: #fff;
+  font-size: 40px;
+}
+
+.header .header__subtitle {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 100px;
+  }
+
+  .header .header__title {
+    font-size: 75px;
+  }
+
+  .header .header__subtitle {
+    font-size: 20px;
+  }
+}

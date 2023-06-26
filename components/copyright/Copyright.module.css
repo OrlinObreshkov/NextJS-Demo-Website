@@ -1,0 +1,9 @@
+.copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: underline;
+  color: #fff;
+}

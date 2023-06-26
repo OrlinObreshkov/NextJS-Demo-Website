@@ -1,27 +1,86 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --main-color: #636363;
+  --nav-link-color: #636363;
+  --border-color: #dddddd;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--nav-link-color);
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.container {
+  padding: 50px 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 100px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to left bottom,
+    #944b74,
+    #985583,
+    #9b5f93,
+    #9d6aa2,
+    #9e75b1,
+    #9280bf,
+    #848bcb,
+    #7495d3,
+    #53a0d3,
+    #39a8cc,
+    #38afbe,
+    #4eb3ad
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--main-color);
+  line-height: 1.65;
 }

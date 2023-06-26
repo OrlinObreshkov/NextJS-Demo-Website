@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.layout {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

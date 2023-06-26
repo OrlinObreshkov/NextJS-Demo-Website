@@ -1,0 +1,21 @@
+.info {
+  margin-bottom: 30px;
+}
+
+.info .info__title {
+  margin-bottom: 30px;
+}
+
+.info .info__description {
+  margin-bottom: 30px;
+}
+
+.info .info__btn {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .info .info__btn {
+    display: inline-block;
+  }
+}
